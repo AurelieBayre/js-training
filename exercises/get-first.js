@@ -9,6 +9,7 @@
 
 // Your code :
 
+const getFirst = iterable => iterable[0]
 //* Begin of tests
 const assert = require('assert')
 

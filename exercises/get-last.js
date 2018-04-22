@@ -8,7 +8,7 @@
  */
 
 // Your code :
-
+const getLast = iterable => iterable[iterable.length-1]
 //* Begin of tests
 const assert = require('assert')
 
