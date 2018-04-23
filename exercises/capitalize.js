@@ -5,8 +5,7 @@
  * and transforms it to upper case only for the first letter,
  * and in lowercase for the rest of the string
  *
- */
-
+ *
 
 //* Begin of tests
 const assert = require('assert')
