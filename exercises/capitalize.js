@@ -6,9 +6,12 @@
  * and in lowercase for the rest of the string
  *
  *
+*/
+//Begin of tests
 
-//* Begin of tests
 const assert = require('assert')
+ 
+const capitalize = str => str.slice(0,1).toUpperCase() + str.slice(1).toLowerCase()
 
 assert.strictEqual(typeof capitalize, "function")
 assert.strictEqual(capitalize('str'), 'Str')
